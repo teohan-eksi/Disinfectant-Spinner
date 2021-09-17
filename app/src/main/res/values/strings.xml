@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Disinfectant Spinner</string>
+    <string name="bottle_content_desc">bottle to spin</string>
+    <string name="spin_text">Spin!</string>
 </resources>

@@ -23,7 +23,8 @@
             android:layout_marginBottom="10dp"
             android:scaleX="0.75"
             android:scaleY="0.75"
-            app:srcCompat="@drawable/bottle" />
+            app:srcCompat="@drawable/bottle"
+            android:contentDescription="@string/bottle_content_desc" />
 
     </FrameLayout>
 
@@ -36,7 +37,7 @@
         android:clickable="true"
         android:enabled="true"
         android:focusable="true"
-        android:text="Spin!"
+        android:text="@string/spin_text"
         android:textColor="@color/white"
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
