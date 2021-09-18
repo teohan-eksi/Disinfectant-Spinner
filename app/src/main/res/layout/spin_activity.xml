@@ -16,10 +16,10 @@
 
         <ImageView
             android:id="@+id/bottle"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center|center_vertical"
+            android:layout_marginBottom="25dp"
             android:contentDescription="@string/bottle_content_desc"
             android:rotation="0"
             android:scaleX="0.75"
